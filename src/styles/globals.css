@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply bg-surface-900 text-gray-100 font-sans antialiased;
+    font-size: 13px;
+    line-height: 1.5;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-surface-800;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-surface-500 rounded;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-400;
+  }
+
+  input,
+  textarea {
+    user-select: text;
+    -webkit-user-select: text;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-medium rounded transition-colors duration-150 disabled:opacity-40 disabled:cursor-not-allowed;
+  }
+
+  .btn-secondary {
+    @apply px-4 py-2 bg-surface-700 hover:bg-surface-600 text-gray-200 text-xs font-medium rounded border border-surface-500 transition-colors duration-150 disabled:opacity-40 disabled:cursor-not-allowed;
+  }
+
+  .tab-active {
+    @apply bg-surface-700 text-indigo-400 border-b-2 border-indigo-500;
+  }
+
+  .tab-inactive {
+    @apply text-gray-400 hover:text-gray-200 hover:bg-surface-700 border-b-2 border-transparent;
+  }
+
+  .field-input {
+    @apply w-full bg-surface-800 border border-surface-600 text-gray-100 text-xs rounded px-3 py-2 placeholder-gray-500 focus:outline-none focus:border-indigo-500 transition-colors;
+  }
+
+  .confidence-high {
+    @apply bg-emerald-500;
+  }
+
+  .confidence-medium {
+    @apply bg-amber-500;
+  }
+
+  .confidence-low {
+    @apply bg-red-500;
+  }
+}
