@@ -1,0 +1,49 @@
+# Claude context — never push
+CLAUDE.md
+
+# Environment variables
+.env
+.env.local
+
+# Node
+node_modules/
+dist/
+
+# Rust build artifacts
+src-tauri/target/
+
+# Python artifacts
+sidecar/__pycache__/
+sidecar/*.pyc
+sidecar/dist/
+sidecar/build/
+sidecar/*.spec
+__pycache__/
+*.pyc
+*.pyo
+
+# Sidecar binaries
+src-tauri/binaries/sidecar
+src-tauri/binaries/sidecar.exe
+src-tauri/binaries/sidecar-*
+
+# Tauri bundle output
+src-tauri/target/release/bundle/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test output
+coverage/
