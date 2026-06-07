@@ -22,10 +22,9 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Sidecar binaries
+# Sidecar compiled binaries (PyInstaller output) — dev placeholder is tracked
 src-tauri/binaries/sidecar
 src-tauri/binaries/sidecar.exe
-src-tauri/binaries/sidecar-*
 
 # Tauri bundle output
 src-tauri/target/release/bundle/
