@@ -1,0 +1,85 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792]
+/Resources << /Font << /F1 3 0 R >> >>
+/Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 1071 >>
+stream
+BT
+/F1 12 Tf
+72 750 Td
+(Sample Resume) Tj
+0 -20 Td
+(CURRICULUM VITAE) Tj
+0 -16 Td
+(----------------------------------------) Tj
+0 -16 Td
+(Sarah J. Mitchell) Tj
+0 -16 Td
+(sarah.mitchell@email.com | +1 \(415\) 555-0192) Tj
+0 -16 Td
+(San Francisco, CA 94105) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(SKILLS) Tj
+0 -16 Td
+(Python, TypeScript, Rust, React, PostgreSQL,) Tj
+0 -16 Td
+(Docker, Kubernetes, AWS, Machine Learning) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(EXPERIENCE) Tj
+0 -16 Td
+(Senior Software Engineer -- DataFlow Systems \(2021-Present\)) Tj
+0 -16 Td
+(  Led migration of monolith to microservices; reduced latency 40%.) Tj
+0 -16 Td
+(Software Engineer -- TechStartup Inc. \(2018-2021\)) Tj
+0 -16 Td
+(  Built real-time analytics pipeline processing 2M events/day.) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(EDUCATION) Tj
+0 -16 Td
+(M.S. Computer Science -- Stanford University, 2018) Tj
+0 -16 Td
+(B.S. Computer Science -- UC Berkeley, 2016) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(CERTIFICATIONS) Tj
+0 -16 Td
+(AWS Solutions Architect Professional) Tj
+0 -16 Td
+(Google Cloud Professional Data Engineer) Tj
+0 -16 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000185 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1434
+%%EOF
